@@ -2,12 +2,13 @@ module.exports = {
   apps: [
     {
       name: "backend",
-      script: "./backend/src/app.js",
-      env_development: {
+      script: "app.js",
+      cwd: "./backend",
+      watch: true,
+      ignore_watch: ["./node_modules"],
+      env: {
         NODE_ENV: "development",
         PORT: 3010,
-        watch: true,
-        ignore_watch: ["./node_modules", "./.DS_Store", "./package.json"],
       },
     },
   ],
