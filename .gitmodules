@@ -4,3 +4,6 @@
 [submodule "frontend"]
 	path = frontend
 	url = git@github.com:ViewSyncTV/frontend.git
+[submodule "business-logic-service-layer"]
+	path = business-logic-service-layer
+	url = git@github.com:ViewSyncTV/business-logic-services-layer.git
