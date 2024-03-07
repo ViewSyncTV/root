@@ -1,3 +1,6 @@
-[submodule "backend"]
-	path = backend
-	url = git@github.com:ViewSyncTV/backend.git
+[submodule "process-centric-service-layer"]
+	path = process-centric-service-layer
+	url = git@github.com:ViewSyncTV/process-centric-services-layer.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:ViewSyncTV/frontend.git
