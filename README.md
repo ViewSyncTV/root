@@ -20,3 +20,11 @@ To see the log of a single service \
 To delete all services \
 `> pm2 delete all`
 
+## Git commands
+
+The first time you pull the repo, you need to run the following command to pull the submodules \
+`> git submodule update --init --recursive`
+
+To pull the latest changes from the submodules the next time \
+`> git submodule update --recursive --remote`
+
