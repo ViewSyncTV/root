@@ -7,3 +7,9 @@
 [submodule "business-logic-service-layer"]
 	path = business-logic-service-layer
 	url = git@github.com:ViewSyncTV/business-logic-services-layer.git
+[submodule "adapter-service-layer"]
+	path = adapter-service-layer
+	url = git@github.com:ViewSyncTV/adapter-services-layer.git
+[submodule "data-service-layer"]
+	path = data-service-layer
+	url = git@github.com:ViewSyncTV/data-services-layer.git
