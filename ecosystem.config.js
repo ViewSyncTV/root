@@ -1,6 +1,19 @@
 module.exports = {
   apps: [
     {
+      name: "frontend",
+      script: "npm",
+      args: "run dev",
+      cwd: "./frontend",
+      // watch: true,
+      ignore_watch: ["./node_modules"],
+      env: {
+        NODE_ENV: "development",
+        PORT: 3000,
+        PROCESS_CENTRIC_SERVICE_URL: "http://localhost:3010",
+      },
+    },
+    {
       name: "process-centric-service-layer",
       script: "app.js",
       cwd: "./process-centric-service-layer",
