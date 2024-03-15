@@ -21,25 +21,25 @@ module.exports = {
       env: {
         NODE_ENV: "development",
         PORT: 3020,
-        ADAPTER_SERVICE_URL: "http://localhost:3030",
-      },
-    },
-    {
-      name: "adapter-service-layer",
-      script: "app.js",
-      cwd: "./adapter-service-layer",
-      watch: true,
-      ignore_watch: ["./node_modules"],
-      env: {
-        NODE_ENV: "development",
-        PORT: 3030,
-        DATA_SERVICE_LAYER: "http://localhost:3040",
+        DATA_SERVICE_URL: "http://localhost:3030",
       },
     },
     {
       name: "data-service-layer",
       script: "app.js",
       cwd: "./data-service-layer",
+      watch: true,
+      ignore_watch: ["./node_modules"],
+      env: {
+        NODE_ENV: "development",
+        PORT: 3030,
+        ADAPTER_SERVICE_LAYER: "http://localhost:3040",
+      },
+    },
+    {
+      name: "adapter-service-layer",
+      script: "app.js",
+      cwd: "./adapter-service-layer",
       watch: true,
       ignore_watch: ["./node_modules"],
       env: {
