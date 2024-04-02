@@ -61,6 +61,8 @@ module.exports = {
         SUPABASE_URL: "https://ippynrgkwygyysedwjyy.supabase.co",
         SUPABASE_KEY:
           "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlwcHlucmdrd3lneXlzZWR3anl5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDkyMDU0NDMsImV4cCI6MjAyNDc4MTQ0M30.5eV0v0pnVxtBPmVw5XDnHU1iB3JKVibMSL9UUkbhAbY",
+        THE_MOVIE_DB_API_KEY:
+          "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkODY4NTJiYzBlOTE1NGQ0ZGMzYWE1NTEzZWJkMTg1MiIsInN1YiI6IjY2MDgxZmM3YTg5NGQ2MDE3YzY1ODY5OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.KIMrhfIRN48aa0JKivf4CZhKO39yMDfFM7ZMM00UDF0",
       },
     },
   ],
