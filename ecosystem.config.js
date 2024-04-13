@@ -10,7 +10,13 @@ module.exports = {
       env: {
         NODE_ENV: "development",
         PORT: 3000,
-        PROCESS_CENTRIC_SERVICE_URL: "http://localhost:3010",
+        VITE_PROCESS_CENTRIC_SERVICE_URL: "http://localhost:3010",
+        VITE_AUTH0_DOMAIN : "dev-axq8uw2w5u4wzzfs.us.auth0.com",
+        VITE_AUTH0_CLIENTID : "3huaI1RBJu9He7oNlwdazPjz6lW7mric",
+        VITE_AUTH0_AUDIENCE : "https://viewsynctv.com/api",
+        VITE_AUTH0_SCOPE : "write:comments",
+        VITE_AUTH0_RESPONSE_TYPE : "code",
+        VITE_AUTH0_REDIRECT_URI : "http://localhost:3000/callback",
       },
     },
     {
@@ -23,6 +29,13 @@ module.exports = {
         NODE_ENV: "development",
         PORT: 3010,
         BUSINESS_PROCESS_SERVICE_URL: "http://localhost:3020",
+        AUTH0_CLIENT_ID : "3huaI1RBJu9He7oNlwdazPjz6lW7mric",
+        AUTH0_CLIENT_SECRET: "1HB4M_U058T03OSqT8bwxvCrUJhx0M8Pey6GIISjqRtC9ZkKxag6CYnnNJAzsLF_",
+        AUTH0_DOMAIN : "dev-axq8uw2w5u4wzzfs.us.auth0.com",
+        AUTH0_AUDIENCE : "https://viewsynctv.com/api",
+        AUTH0_ISSUER_BASE_URL: "https://dev-axq8uw2w5u4wzzfs.us.auth0.com/",
+        SESSION_SECRET: "co2kaqGGbQGjCxuBzHlR7LQkkVknlb5X",
+
       },
     },
     {
