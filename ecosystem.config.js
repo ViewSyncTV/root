@@ -35,7 +35,8 @@ module.exports = {
         AUTH0_AUDIENCE : "https://viewsynctv.com/api",
         AUTH0_ISSUER_BASE_URL: "https://dev-axq8uw2w5u4wzzfs.us.auth0.com/",
         SESSION_SECRET: "co2kaqGGbQGjCxuBzHlR7LQkkVknlb5X",
-
+        COOKIE_SECRET: "luBwDm8ow0cWdGF3zRmqTx6tJtOY36Ed",
+        AUTH0_TOKEN_SIGNING_ALG: "RS256",
       },
     },
     {
