@@ -14,7 +14,7 @@ module.exports = {
         VITE_AUTH0_DOMAIN: "dev-axq8uw2w5u4wzzfs.us.auth0.com",
         VITE_AUTH0_CLIENTID: "3huaI1RBJu9He7oNlwdazPjz6lW7mric",
         VITE_AUTH0_AUDIENCE: "https://viewsynctv.com/api",
-        VITE_AUTH0_SCOPE: "write:comments",
+        VITE_AUTH0_SCOPE: "write:comments openid profile email",
         VITE_AUTH0_RESPONSE_TYPE: "code",
         VITE_AUTH0_REDIRECT_URI: "http://localhost:3000/callback",
       },
